@@ -1,0 +1,181 @@
+/* ::::CSS Sequence (7 Steps):::: */
+/* Step1: parentContainer */
+/* Step2: component */
+/* Step3: componentContainer */
+/* Step4: row */
+/* Step5: column */
+/* Step6: subColumn */
+/* Step7: contentContainer */
+
+
+/* Step1: parentContainer */
+/* :::For Parent Container CSS Properties are given in the Default CSS file::: */
+/* header{
+    background-color: #649db1;
+} */
+
+/* Step2: component */
+.team{
+    /* background-color: darkorchid; */
+}
+
+/* Step3: componentContainer */
+.teamContainer{
+    /* background-color: bisque; */
+}
+
+/* Step4: row-1 */
+.teamBody{
+    /* background-color: blue; */
+}
+/* Step5: column-1 */
+.teamBlock{
+    /* background-color: azure; */
+}
+/* Step6: subColumn */
+.teamBox{
+    /* background-color:chartreuse; */
+}
+/* Step7: contentContainer */
+.teamBox figure{
+    /* background-color:blue; */
+}
+.teamBox figure img{
+    /* background-color:rgb(151, 76, 5); */
+    height: auto;
+    width: 180px;
+}
+.teamBox h2{
+    /* background-color:darkkhaki; */
+}
+
+/* Step4: row-2 */
+.membersBody{
+    /* background-color:darkcyan; */
+}
+/* Step5: column-2 */
+.member1Block{
+    /* background-color: aquamarine; */
+}
+/* Step6: subColumn */
+.member1Box{
+    /* background-color: crimson; */
+}
+/* Step7: contentContainer */
+.member1Box figure{
+    /* background-color:bisque; */
+}
+.member1Box figure img{
+    /* background-color: rgb(133, 4, 133); */
+}
+.member1Box p{
+    /* background-color: fuchsia; */
+    font-size: 20px;
+    margin: 0px 0px 20px;
+    text-align: center;
+}
+/* Step5: column-3 */
+.member2Block{
+    /* background-color: aquamarine; */
+}
+/* Step6: subColumn */
+.member2Box{
+    /* background-color: crimson; */
+}
+/* Step7: contentContainer */
+.member2Box figure{
+    /* background-color:bisque; */
+}
+.member2Box figure img{
+    /* background-color: rgb(133, 4, 133); */
+}
+.member2Box p{
+    /* background-color: fuchsia; */
+    font-size: 20px;
+    margin: 0px 0px 20px;
+    text-align: center;
+}
+/* Step5: column-4 */
+.member3Block{
+    /* background-color: aquamarine; */
+}
+/* Step6: subColumn */
+.member3Box{
+    /* background-color: crimson; */
+}
+/* Step7: contentContainer */
+.member3Box figure{
+    /* background-color:bisque; */
+}
+.member3Box figure img{
+    /* background-color: rgb(133, 4, 133); */
+}
+.member3Box p{
+    /* background-color: fuchsia; */
+    font-size: 20px;
+    margin: 0px 0px 20px;
+    text-align: center;
+}
+/* Step5: column-5 */
+.member4Block{
+    /* background-color: aquamarine; */
+}
+/* Step6: subColumn */
+.member4Box{
+    /* background-color: crimson; */
+}
+/* Step7: contentContainer */
+.member4Box figure{
+    /* background-color:bisque; */
+}
+.member4Box figure img{
+    /* background-color: rgb(133, 4, 133); */
+}
+.member4Box p{
+    /* background-color: fuchsia; */
+    font-size: 20px;
+    margin: 0px 0px 20px;
+    text-align: center;
+}
+/* Step5: column-5 */
+.member5Block{
+    /* background-color: aquamarine; */
+}
+/* Step6: subColumn */
+.member5Box{
+    /* background-color: crimson; */
+}
+/* Step7: contentContainer */
+.member5Box figure{
+    /* background-color:bisque; */
+}
+.member5Box figure img{
+    /* background-color: rgb(133, 4, 133); */
+}
+.member5Box p{
+    /* background-color: fuchsia; */
+    font-size: 20px;
+    margin: 0px 0px 20px;
+    text-align: center;
+}
+/* Step5: column-6 */
+.member6Block{
+    /* background-color: aquamarine; */
+}
+/* Step6: subColumn */
+.member6Box{
+    /* background-color: crimson; */
+}
+/* Step7: contentContainer */
+.member6Box figure{
+    /* background-color:bisque; */
+}
+.member6Box figure img{
+    /* background-color: rgb(133, 4, 133); */
+}
+.member6Box p{
+    /* background-color: fuchsia; */
+    font-size: 20px;
+    margin: 0px 0px 20px;
+    text-align: center;
+}

@@ -1,0 +1,152 @@
+/* ::::CSS Sequence (7 Steps):::: */
+/* Step1: parentContainer */
+/* Step2: component */
+/* Step3: componentContainer */
+/* Step4: row */
+/* Step5: column */
+/* Step6: subColumn */
+/* Step7: contentContainer */
+
+
+/* Step1: parentContainer */
+/* :::For Parent Container CSS Properties are given in the Default CSS file::: */
+/* header{
+    background-color: #649db1;
+} */
+
+/* Step2: component */
+.facility{
+    /* background-color: rgb(162, 100, 6); */
+}
+/* Step3: componentContainer */
+.facilityContainer{
+    /* background-color: aquamarine; */
+}
+/* Step4: row-1 */
+.facilityBody{
+    /* background-color: blueviolet; */
+}
+/* Step5: column-1 */
+.facilityBlock{
+    /* background-color: rgb(104, 95, 20); */
+}
+/* Step6: subColumn */
+.facilityBox{
+    /* background-color: rgb(243, 220, 8); */
+}
+/* Step7: contentContainer */
+.facilityBox figure{
+    /* background-color:darkcyan; */
+}
+.facilityBox figure img{
+    /* background-color:rgb(18, 252, 252); */
+    height: auto;
+    width: 180px;
+}
+.facilityBox h2{
+    /* background-color:rgb(2, 78, 78); */
+}
+
+/* Step4: row-2 */
+.imagesBody{
+    /* background-color: blanchedalmond; */
+}
+/* Step5: column-2 */
+.varietiesBlock{
+    /* background-color: cadetblue; */
+}
+/* Step6: subColumn */
+.varietiesBox{
+    /* background-color: blueviolet; */
+}
+/* Step7: contentContainer */
+.varietiesBox figure{
+    /* background-color: cornflowerblue; */
+}
+.varietiesBox figure img{
+    /* background-color: rgb(11, 39, 92); */
+    height: auto;
+    width: 106;
+    margin: 10px 0px;
+}
+.varietiesBox h3{
+    /* background-color: bisque; */
+}
+.varietiesBox p{
+    /* background-color: rgb(7, 146, 61); */
+}
+
+/* Step5: column-3 */
+.coffeeBeansBlock{
+    /* background-color: cadetblue; */
+}
+/* Step6: subColumn */
+.coffeeBeansBox{
+    /* background-color: blueviolet; */
+}
+/* Step7: contentContainer */
+.coffeeBeansBox figure{
+    /* background-color: cornflowerblue; */
+}
+.coffeeBeansBox figure img{
+    /* background-color: rgb(11, 39, 92); */
+    height: auto;
+    width: 106;
+    margin: 10px 0px;
+}
+.coffeeBeansBox h3{
+    /* background-color: bisque; */
+}
+.coffeeBeansBox p{
+    /* background-color: rgb(7, 146, 61); */
+}
+
+/* Step5: column-4 */
+.sweetsBlock{
+    /* background-color: cadetblue; */
+}
+/* Step6: subColumn */
+.sweetsBox{
+    /* background-color: blueviolet; */
+}
+/* Step7: contentContainer */
+.sweetsBox figure{
+    /* background-color: cornflowerblue; */
+}
+.sweetsBox figure img{
+    /* background-color: rgb(11, 39, 92); */
+    height: auto;
+    width: 106;
+    margin: 10px 0px;
+}
+.sweetsBox h3{
+    /* background-color: bisque; */
+}
+.sweetsBox p{
+    /* background-color: rgb(7, 146, 61); */
+}
+
+/* Step5: column-5 */
+.coffeeTinBlock{
+    /* background-color: cadetblue; */
+}
+/* Step6: subColumn */
+.coffeeTinBox{
+    /* background-color: blueviolet; */
+}
+/* Step7: contentContainer */
+.coffeeTinBox figure{
+    /* background-color: cornflowerblue; */
+}
+.coffeeTinBox figure img{
+    /* background-color: rgb(11, 39, 92); */
+    height: auto;
+    width: 106;
+    margin: 10px 0px;
+}
+.coffeeTinBox h3{
+    /* background-color: bisque; */
+}
+.coffeeTinBox p{
+    /* background-color: rgb(7, 146, 61); */
+}

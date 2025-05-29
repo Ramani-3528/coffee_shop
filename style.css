@@ -1,0 +1,547 @@
+/* Default code Starts here */
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-wrap: pretty;
+  /* border: 1px solid red; */
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #FFFFFF;
+  font-family: "Merienda", serif;
+  font-family: "Nunito Sans", serif;
+  font-family: "Inter", serif;
+  font-family: "Roboto Condensed", serif;
+  font-family: "DM Serif Display", serif;
+  /* line-height: 1.5; */
+  font-size: 1.6rem;
+  -webkit-font-smoothing: antialiased;
+  font-optical-sizing: auto;
+}
+
+/* :::::SCROLL BAR CODE S T A R T S::::: */
+
+/* Width and height of the scrollbar */
+::-webkit-scrollbar {
+  width: 1.5rem;
+  /* Vertical scrollbar */
+  height: 10px;
+  /* Horizontal scrollbar */
+}
+
+/* Track (background of the scrollbar) */
+::-webkit-scrollbar-track {
+  background: #e3e4e6;
+  border-radius: 5px;
+}
+
+/* Scrollbar thumb (the draggable part) */
+::-webkit-scrollbar-thumb {
+  background: #cececf;
+  /* border-radius: 5px; */
+}
+
+/* On hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #b9b9ba;
+}
+/* :::::SCROLL BAR CODE E N D S::::: */
+
+h1,
+h2,
+h3,
+h4,
+h6,
+p{
+  text-wrap: balance;
+}
+h1 {
+  color: #212529;
+  font-weight: 850;
+  font-size: 50px;
+  font-family: "Merienda", serif;
+}
+h2 {
+  color: #212529;
+  font-weight: 800;
+  font-size: 40px;
+  text-align: center;
+  font-family: "Merienda", serif; 
+  padding-bottom: 20px;
+  margin: 0px 0px 10px;
+}
+h3 {
+  font-family: "Nunito", sans-serif;
+  font-size: 20px;
+  font-weight: 100; 
+  text-transform: capitalize;
+}
+
+p {
+  color: #212529;
+  font-size: 1.5rem;
+  font-family: "Nunito",sans-serif;
+  text-transform: capitalize;
+}
+span {
+  color: #BE9C79;
+}
+.button {
+  font-family: "Nunito Sans", serif;
+  font-size: 20px;
+  padding: 7.5px 30px;
+  background: #BE9C79;
+  color: #ffffff;
+  border: none;
+}
+button:hover {
+  background-color: #BE9C79;
+  background: #0e0d0d;
+  /* transform: scale(1.05); slight zoom */
+  cursor: pointer;
+}
+input,
+textarea,
+button {
+  font-family: inherit;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+:root {
+  --primaryColor: #be9c79;
+  --secondaryColor: #666666;
+  --darkColor: #333333;
+  --lightColor: #ffffff;
+  --regularFont: 1.5rem;
+  --headingFont: 2.5rem;
+  --ffPrimary: "Nunito Sans", serif;
+  --ffSecondary: "Merienda", serif;
+}
+
+/* project standard classes Starts */
+
+.componentSpacing {
+  padding: 1rem 0rem;
+  /* Breathing Space Between Components */
+}
+.screenSize1 {
+  max-width: 1200px;
+  margin: auto;
+}
+.screenSize2 {
+  max-width: 1150px;
+  /* Device Screen Size */
+  margin: auto;
+  /* Left and right Center */
+}
+.screenSize3 {
+  max-width: 1000px;
+  /* Device Screen Size */
+  margin: auto;
+  /* Left and right Center */
+}
+.headingImage{
+  height: auto;
+  width: 180px;
+}
+
+.grid-1 {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 0rem 2rem;
+}
+.grid-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  padding: 0rem 2rem;
+}
+.grid-3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+  padding: 0rem 2rem;
+}
+.grid-4 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 1rem;
+  padding: 0rem 2rem;
+}
+.dflex {
+  display: flex;
+  /* without this wont work */
+  align-items: center;
+  /* top & bottom Alignment */
+  /* justify-content: center; */
+  /* left & right Alignment */
+}
+.dflex-col {
+  display: flex;
+  flex-direction: column;
+  /* makes top to bottom align */
+  align-items: center;
+  /* Behaves like a justify-content */
+  justify-content: center;
+  /* Behaves like a align-items */
+  text-align: center;
+}
+.dflex-col-start {
+  display: flex;
+  flex-direction: column;
+  /* makes top to bottom align */
+  align-items: center;
+  /* Behaves like a justify-content */
+  justify-content: center;
+  /* Behaves like a align-items */
+  text-align: left;
+}
+.dflex-start {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+/* .footer-line {
+  border-top: 1.5px solid #000;
+  margin: 20px 0px;
+} */
+
+/* project standard classes Ends */
+
+/* Default code Ends here */
+
+/* :::PARENT CONTAINER Code Starts here::: */
+
+header {
+  width: 100%;
+  /* Full Screensize */
+  height: auto;
+  /* content Height */
+}
+
+main {
+  width: 100%;
+  height: auto;
+}
+
+footer {
+  width: 100%;
+  height: auto;
+}
+
+/* :::PARENT CONTAINER Code Ends here::: */
+/* :::PARENT CONTAINER Code Ends here::: */
+
+/* :::HEADER Code Starts hereE::: */
+/* Navbar code */
+.navContainer {
+  padding: 16px 0px;
+}
+.logoBox {
+  padding: 10px 2px;
+}
+.logoBox figure img {
+  width: auto;
+  height: 50px;
+  margin-left: 7rem;
+}
+#iconToggle{
+  cursor: pointer;
+  display: none;
+}
+.homeBox .hamburger{
+  font-size: 25px;
+  color: #00000080;
+  border: 1.5px solid #00000080;
+  padding: 0px 18px;
+  border-radius: 0.25rem;
+  display: none;
+}
+.homeBox ul li a {
+  font-family: "Nunito Sans", serif;
+  font-size: 20px;
+  color: #343A40;
+  padding: 13px;
+}
+/* Navbar code */
+
+/* Hero Section code */
+.hero {
+  background: linear-gradient(90deg, rgb(255, 255, 255), transparent 70%), url(./assets/images/hero_bg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 16rem 0rem;
+}
+
+.heroBox{
+  height: 100%;
+  width: 50%;
+  /* background-color: blue; */
+}
+
+.heroBox p {
+  font-size: 15px;
+  margin-bottom: 30px;
+  /* line-height: 20px; */
+  color: #343A40;
+}
+/* Hero Section code */
+/* :::HEADER Code Ends here::: */
+
+/* :::MAIN Code Starts here::: */
+/* Our Menu code */
+.imageBox figure img {
+  width: 100%;
+  aspect-ratio: 3/3;
+}
+.menuBox h2 {
+  font-family: "Merienda", cursive;
+  font-size: 40px;
+  color: #212529;
+  line-height: 1.2;
+  text-align: start;
+}
+.menuBox p {
+  font-family: "Nunito Sans", serif;
+  font-size: 15px;
+  text-align: start;
+  margin: 10px 0px 20px 0px;
+}
+/* Our Menu code */
+
+/* Facility code */
+.facilityCardMain p{
+  text-align: start;
+  word-spacing: 1.5rem;
+  padding-top: 1rem;
+}
+.varietiesImage{
+
+}
+.facilityCardMain{
+  
+}
+/* Facility code */
+
+/* Popular code */
+.coffeeBody {
+  padding: 0px 20px;
+  margin: 0px 100px 0px;
+}
+
+.coffeeBody img {
+  width: 100%;
+  aspect-ratio: 3/3;
+  padding: 10px;
+}
+
+/* Popular code */
+
+/* Gallery code */
+.galleryImage{
+  padding: 0px 10px 15px;
+}
+/* Gallery code */
+
+/* Team code */
+.john {
+  font-size: 20px;
+  /* margin: 0px 0px 0px; */
+  text-align: top;
+}
+.memberImage{
+  height: 300px 300px;
+  width: auto;
+  padding: 0px 10px 15px;
+}
+/* Team code */
+/* :::MAIN Code Ends here::: */
+
+/* :::FOOTER Code Starts here::: */
+/* Contact code */
+.pictureBox{
+  width: 100%;
+  aspect-ratio: 4/3;
+}
+/* Contact code */
+
+/* Contact Icons code */
+.cardHeader i {
+  font-size: 40px;
+  background: #BE9C79;
+  color: white;
+  border-radius: 100%;
+  height: 70px;
+  width: 70px;
+  padding: 13px;
+  margin: 3rem;
+}
+.contactIconsContainer {
+  margin: 0rem 4rem;
+  padding: 0px 5px;
+}
+.contactIconsBody{
+  margin: 4rem;
+}
+.cardMain p{
+  /* font-family: "Nunito", sans-serif; */
+  font-size: 20px;
+  padding: 2px 0px;
+}
+.cardMain h3{
+  padding-bottom: 1rem;
+}
+.copyrightsBody {
+  border-top: 1.5px solid black;
+}
+.copyrightsBlock {
+  padding-top: 2rem;
+}
+.copyrightsBox p {
+  font-family: "Nunito", sans-serif;
+  font-size: 20px;
+}
+/* Contact Icons code */
+/* :::FOOTER Code Ends here::: */
+
+/* ::::: RESPONSIVE DESIGN DEVICE SIZES ::::: */
+
+/* for Responsive Target the ROW Code (display:grid) */
+
+/* Small devices (landscape phones, upto 576px and below) */
+/* @media (width <=576px) */
+@media (max-width: 576px) {
+  .grid-1,
+  .grid-2,
+  .grid-3,
+  .grid-4 {
+    display: grid;
+    grid-template-columns: 1fr;
+    /* padding: 0rem 1rem; */
+  }
+  .logoBlock img{
+    justify-content: center;
+  }
+  .homeBox .hamburger {
+    display: block;
+    position: absolute;
+    top: 4.5rem;
+    right: 4rem;
+    cursor: pointer;
+  }
+  
+  .homeBlock{
+    justify-content: end;
+  }
+
+  .links{
+    flex-direction: column;
+    display: none;
+  }
+
+  #iconToggle:checked~ .links {
+    display: flex;
+  }
+
+  .heroBox h1{
+    font-size: 30px;
+  }
+
+  .heroBox p{
+    font-size: 12px;
+    margin: 0px 0px 20px;
+  }
+
+  .heroBox{
+    height: 100%;
+    width: 50%;
+  }
+  .menuBox p{
+    font-size: 12px;
+  }
+  .facilityCardMain p{
+    font-size: 12px;
+    text-align: start;
+    word-spacing: normal;
+  }
+  .coffeeBody img {
+    width: 100%;
+    aspect-ratio: 6/6;
+  }
+  .imageBox figure img {
+    aspect-ratio: 3/3;
+    width: 510px;
+  }
+  .memberImage img{
+    height: 300px;
+    width: auto;
+  }
+  .pictureBox img{
+    height: 700px;
+    width: 510px;
+  }
+}
+
+/* Medium devices (tablets, upto 768px and above) */
+/* @media (width >=577px) and (width <=768px) */
+@media (min-width: 577px) and (max-width: 768px) {
+  .grid-3,
+  .grid-4 {
+    grid-template-columns: 1fr 1fr;
+    padding: 0rem 1rem;
+  }
+}
+
+/* Large devices (Laptops, upto 992px and above) */
+/* @media (width >=769px) and (width <=992px) */
+@media (min-width: 769px) and (max-width: 992px) {
+        .grid-4 {
+      grid-template-columns: 1fr 1fr 1fr;
+      padding: 0rem 1rem;
+    }
+}
+
+/* X-Large devices (large desktops, upto 1200px and above) */
+/* @media (width >=993px) and (width <=1200px) */
+@media (min-width: 993px) and (max-width: 1200px) {
+  /* write code here */
+  /* This will get CSS from Default style.css */
+}
+
+/* XX-Large devices (larger desktops, upto 1400px and above) */
+/* @media (width >=1200px) */
+@media (min-width: 1201px) {
+  /* write code here */
+}
+/* ::::: RESPONSIVE DESIGN DEVICE SIZES ::::: */

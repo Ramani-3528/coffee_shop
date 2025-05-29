@@ -1,0 +1,81 @@
+/* ::::CSS Sequence (7 Steps):::: */
+/* Step1: parentContainer */
+/* Step2: component */
+/* Step3: componentContainer */
+/* Step4: row */
+/* Step5: column */
+/* Step6: subColumn */
+/* Step7: contentContainer */
+
+
+/* Step1: parentContainer */
+/* :::For Parent Container CSS Properties are given in the Default CSS file::: */
+/* header{
+    background-color: #649db1;
+} */
+
+/* Step2: component */
+.ourMenu{
+    /* background-color: rgb(198, 162, 17); */
+}
+/* Step3: componentContainer */
+.menuContainer{
+    /* background-color: blueviolet; */
+}
+/* Step4: row */
+.menuBody{
+    /* background-color: aquamarine; */
+}
+/* Step5: column-1 */
+.imageBlock{
+    /* background-color: chartreuse; */
+}
+/* Step6: subColumn */
+.imageBox{
+    /* background-color: rgb(5, 21, 99); */
+}
+/* Step7: contentContainer */
+.imageBox figure{
+    /* background-color: rgb(179, 187, 227); */
+}
+.imageBox figure img{
+    /* background-color: rgb(34, 165, 246); */
+    height: 540px;
+    width: auto;
+}
+
+/* Step5: column-2 */
+.menuBlock{
+    /* background-color: chartreuse; */
+}
+/* Step6: subColumn */
+.menuBox{
+    /* background-color: rgb(13, 105, 75); */
+}
+/* Step7: contentContainer */
+.menuBox h2{
+    /* background-color: chocolate; */
+    font-family: "Merienda", cursive;
+    font-size: 40px;
+    color: #212529;
+    /* margin: 0px 0px 10px; */
+    line-height: 1;
+    /* margin: 0px 0px 10px; */
+    text-align: start;
+}
+.menuBox p{
+    /* background-color: rgb(14, 185, 182); */
+    font-family: "Nunito Sans", serif;
+    font-size: 15px;
+    margin: 0px 0px 20px;
+    text-align: start;
+}
+.menuBox button{
+    /* background-color: rgb(228, 5, 180); */
+    font-family: "Nunito Sans", serif;
+    font-size: 20px;
+    padding: 7.5px 30px;
+    background: #BE9C79;
+    color: #ffffff;
+    border: none;
+}

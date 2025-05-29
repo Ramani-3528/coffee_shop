@@ -1,0 +1,180 @@
+/* ::::CSS Sequence (7 Steps):::: */
+/* Step1: parentContainer */
+/* Step2: component */
+/* Step3: componentContainer */
+/* Step4: row */
+/* Step5: column */
+/* Step6: subColumn */
+/* Step7: contentContainer */
+
+
+/* Step1: parentContainer */
+/* :::For Parent Container CSS Properties are given in the Default CSS file::: */
+/* header{
+    background-color: #649db1;
+} */
+
+/* Step2: component */
+.popular{
+    /* background-color: rgb(14, 201, 70); */
+}
+/* Step3: componentContainer */
+.popularContainer{
+    /* background-color: aquamarine; */
+}
+
+/* Step4: row */
+.popularBody{
+    /* background-color: rgb(9, 215, 146); */
+}
+/* Step5: column-1 */
+.popularBlock{
+    /* background-color: cadetblue; */
+}
+/* Step6: subColumn */
+.popularBox{
+    /* background-color: beige; */
+}
+/* Step7: contentContainer */
+.popularBox figure{
+    /* background-color: cadetblue; */
+}
+.popularBox figure img{
+    /* background-color: rgb(252, 111, 4); */
+    height: auto;
+    width: 180px;
+}
+.popularBox h2{
+    /* background-color: blueviolet; */
+}
+/* Step4: row-2 */
+.coffeeBody{
+    /* background-color: rgb(7, 123, 89); */
+    padding: 0rem 20rem;
+}
+/* Step5: column-2 */
+.loveCoffeeBlock{
+    /* background-color: brown; */
+}
+/* Step6: subColumn */
+.loveCoffeeBox{
+    /* background-color: rgb(232, 131, 7); */
+}
+/* Step7: contentContainer */
+.loveCoffeeBox figure{
+    /* background-color: rgb(50, 176, 249); */
+}
+.loveCoffeeBox figure img{
+    /* background-color: rgb(183, 240, 10); */
+    height: auto;
+    width: 250px;
+}
+.loveCoffeeBox p{
+    /* background-color:darkolivegreen; */
+    text-align: center;
+}
+/* Step5: column-3 */
+.cappuccinoBlock{
+    /* background-color: brown; */
+}
+/* Step6: subColumn */
+.cappuccinoBox{
+    /* background-color: rgb(232, 131, 7); */
+}
+/* Step7: contentContainer */
+.cappuccinoBox figure{
+    /* background-color: rgb(50, 176, 249); */
+}
+.cappuccinoBox figure img{
+    /* background-color: rgb(183, 240, 10); */
+    height: auto;
+    width: 250px;
+}
+.cappuccinoBox p{
+    /* background-color:darkolivegreen; */
+    text-align: center;
+}
+/* Step5: column-4 */
+.mochaCoffeeBlock{
+    /* background-color: brown; */
+}
+/* Step6: subColumn */
+.mochaCoffeeBox{
+    /* background-color: rgb(232, 131, 7); */
+}
+/* Step7: contentContainer */
+.mochaCoffeeBox figure{
+    /* background-color: rgb(50, 176, 249); */
+}
+.mochaCoffeeBox figure img{
+    /* background-color: rgb(183, 240, 10); */
+    height: auto;
+    width: 250px;
+}
+.mochaCoffeeBox p{
+    /* background-color:darkolivegreen; */
+    text-align: center;
+}
+/* Step5: column-5 */
+.frappuccinoBlock{
+    /* background-color: brown; */
+}
+/* Step6: subColumn */
+.frappuccinoBox{
+    /* background-color: rgb(232, 131, 7); */
+}
+/* Step7: contentContainer */
+.frappuccinoBox figure{
+    /* background-color: rgb(50, 176, 249); */
+}
+.frappuccinoBox figure img{
+    /* background-color: rgb(183, 240, 10); */
+    height: auto;
+    width: 250px;
+}
+.frappuccinoBox p{
+    /* background-color:darkolivegreen; */
+    text-align: center;
+}
+/* Step5: column-6 */
+.blackCoffeeBlock{
+    /* background-color: brown; */
+}
+/* Step6: subColumn */
+.blackCoffeeBox{
+    /* background-color: rgb(232, 131, 7); */
+}
+/* Step7: contentContainer */
+.blackCoffeeBox figure{
+    /* background-color: rgb(50, 176, 249); */
+}
+.blackCoffeeBox figure img{
+    /* background-color: rgb(183, 240, 10); */
+    height: auto;
+    width: 250px;
+}
+.blackCoffeeBox p{
+    /* background-color:darkolivegreen; */
+    text-align: center;
+}
+/* Step5: column-7 */
+.heartCoffeeBlock{
+    /* background-color: brown; */
+}
+/* Step6: subColumn */
+.heartCoffeeBox{
+    /* background-color: rgb(232, 131, 7); */
+}
+/* Step7: contentContainer */
+.heartCoffeeBox figure{
+    /* background-color: rgb(50, 176, 249); */
+}
+.heartCoffeeBox figure img{
+    /* background-color: rgb(183, 240, 10); */
+    height:auto;
+    width: 250px;
+}
+.heartCoffeeBox p{
+    /* background-color:darkolivegreen; */
+    text-align: center;
+}

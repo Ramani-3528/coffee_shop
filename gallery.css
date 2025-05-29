@@ -1,0 +1,148 @@
+/* ::::CSS Sequence (7 Steps):::: */
+/* Step1: parentContainer */
+/* Step2: component */
+/* Step3: componentContainer */
+/* Step4: row */
+/* Step5: column */
+/* Step6: subColumn */
+/* Step7: contentContainer */
+
+
+/* Step1: parentContainer */
+/* :::For Parent Container CSS Properties are given in the Default CSS file::: */
+/* header{
+    background-color: #649db1;
+} */
+
+/* Step2: component */
+.gallery{
+    /* background-color: rgb(0, 128, 255); */
+}
+/* Step3: componentContainer */
+.galleryContainer{
+    /* background-color: rgb(182, 229, 11); */
+    
+}
+/* Step4: row-1 */
+.galleryBody{
+    /* background-color: rgb(224, 3, 224); */
+    
+}
+/* Step5: column-1 */
+.galleryBlock{
+    /* background-color: aquamarine; */
+    
+}
+/* Step5: subColumn */
+.galleryBox{
+    /* background-color: rgb(4, 182, 123); */
+    
+}
+/* Step7: contentContainer */
+.galleryBox figure{
+    /* background-color: rgb(4, 182, 123); */
+}
+.galleryBox figure img{
+    /* background-color: rgb(236, 240, 13); */
+    height: auto;
+    width: 180px;
+}
+.galleryBox h2{
+    /* background-color: antiquewhite; */
+}
+
+/* Step4: row-2 */
+.varietiesBody{
+    /* background-color: rgb(233, 150, 122); */
+}
+/* Step5: column-2 */
+.coffeeBlock{
+    /* background-color: coral; */
+}
+.coffeeBox{
+    /* background-color: rgb(255, 80, 243); */
+    
+}
+/* Step7: contentContainer */
+.coffeeBox figure{
+    /* background-color:aqua; */
+}
+.coffeeBox figure img{
+    /* background-color: indigo; */
+    padding: 0px 15px;
+}
+/* Step5: column-3 */
+.snacksBlock{
+    /* background-color: coral; */
+}
+.snacksBox{
+    /* background-color:aqua; */
+}
+/* Step7: contentContainer */
+.snacksBox figure{
+    /* background-color:aqua; */
+}
+.snacksBox figure img{
+    /* background-color:indigo; */
+    padding: 0px 15px;
+}
+/* Step5: column-4 */
+.cakeImageBlock{
+    /* background-color: coral; */
+}
+.cakeImageBox{
+    /* background-color:aqua; */
+}
+/* Step7: contentContainer */
+.cakeImageBox figure{
+    /* background-color:aqua; */
+}
+.cakeImageBox figure img{
+    /* background-color:indigo; */
+    padding: 0px 15px;
+}
+/* Step5: column-5 */
+.beansImageBlock{
+    /* background-color: coral; */
+}
+.beansImageBox{
+    /* background-color:aqua; */
+}
+/* Step7: contentContainer */
+.beansImageBox figure{
+    /* background-color:aqua;  */
+}
+.beansImageBox figure img{
+    /* background-color:indigo; */
+    padding: 0px 15px;
+}
+/* Step5: column-6 */
+.cappuccinoCoffeeBlock{
+    /* background-color: coral; */
+}
+.cappuccinoCoffeeBox{
+    /* background-color:aqua; */
+}
+/* Step7: contentContainer */
+.cappuccinoCoffeeBox figure{
+    /* background-color:aqua; */
+}
+.cappuccinoCoffeeBox figure img{
+    /* background-color:indigo; */
+    padding: 0px 15px;
+}
+/* Step5: column-7 */
+.sugarCoffeeBlock{
+    /* background-color: coral; */
+}
+.sugarCoffeeBox{
+    /* background-color:aqua; */
+}
+/* Step7: contentContainer */
+.sugarCoffeeBox figure{
+    /* background-color:aqua; */
+}
+.sugarCoffeeBox figure img{
+    /* background-color:indigo; */
+    padding: 0px 15px;
+}
