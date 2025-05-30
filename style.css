@@ -68,7 +68,7 @@ h3,
 h4,
 h6,
 p{
-  text-wrap: balance;
+  /* text-wrap: balance; */
 }
 h1 {
   color: #212529;
@@ -82,10 +82,12 @@ h2 {
   font-size: 40px;
   text-align: center;
   font-family: "Merienda", serif; 
-  padding-bottom: 20px;
+  padding-bottom: 10px;
   margin: 0px 0px 10px;
+  text-transform: capitalize;
 }
 h3 {
+  color: #212529;
   font-family: "Nunito", sans-serif;
   font-size: 20px;
   font-weight: 100; 
@@ -273,7 +275,7 @@ footer {
 .logoBox figure img {
   width: auto;
   height: 50px;
-  margin-left: 7rem;
+  margin-left: 4rem;
 }
 #iconToggle{
   cursor: pointer;
@@ -282,16 +284,20 @@ footer {
 .homeBox .hamburger{
   font-size: 25px;
   color: #00000080;
-  border: 1.5px solid #00000080;
-  padding: 0px 18px;
-  border-radius: 0.25rem;
+  border: 1px solid #0000001b;
+  padding: 3px 19px 3px 19px;
+  border-radius: 0.55rem;
   display: none;
 }
 .homeBox ul li a {
   font-family: "Nunito Sans", serif;
   font-size: 20px;
   color: #343A40;
-  padding: 13px;
+  padding: 10px;
+}
+
+.homeBox{
+  padding-left: 6rem;
 }
 /* Navbar code */
 
@@ -301,19 +307,17 @@ footer {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  padding: 16rem 0rem;
+  padding: 20rem 0rem;
 }
 
 .heroBox{
   height: 100%;
   width: 50%;
-  /* background-color: blue; */
 }
 
 .heroBox p {
   font-size: 15px;
   margin-bottom: 30px;
-  /* line-height: 20px; */
   color: #343A40;
 }
 /* Hero Section code */
@@ -329,7 +333,7 @@ footer {
   font-family: "Merienda", cursive;
   font-size: 40px;
   color: #212529;
-  line-height: 1.2;
+  line-height: 40px;
   text-align: start;
 }
 .menuBox p {
@@ -345,12 +349,6 @@ footer {
   text-align: start;
   word-spacing: 1.5rem;
   padding-top: 1rem;
-}
-.varietiesImage{
-
-}
-.facilityCardMain{
-  
 }
 /* Facility code */
 
@@ -412,7 +410,7 @@ footer {
   padding: 0px 5px;
 }
 .contactIconsBody{
-  margin: 4rem;
+  margin: 3rem;
 }
 .cardMain p{
   /* font-family: "Nunito", sans-serif; */
@@ -456,13 +454,18 @@ footer {
   .homeBox .hamburger {
     display: block;
     position: absolute;
-    top: 4.5rem;
+    top: 3rem;
     right: 4rem;
     cursor: pointer;
   }
   
   .homeBlock{
     justify-content: end;
+  }
+
+  .hero {
+    background-size: auto;
+    padding: 25rem 0rem;
   }
 
   .links{
@@ -474,6 +477,10 @@ footer {
     display: flex;
   }
 
+  .logoBox{
+      padding: 1px 2px;
+  }
+
   .heroBox h1{
     font-size: 30px;
   }
@@ -483,21 +490,21 @@ footer {
     margin: 0px 0px 20px;
   }
 
-  .heroBox{
+  /* .heroBox{
     height: 100%;
     width: 50%;
-  }
+  } */
   .menuBox p{
     font-size: 12px;
   }
   .facilityCardMain p{
     font-size: 12px;
-    text-align: start;
+    text-align: left;
     word-spacing: normal;
   }
   .coffeeBody img {
-    width: 100%;
-    aspect-ratio: 6/6;
+    width: 327px;
+    aspect-ratio: 4/4;
   }
   .imageBox figure img {
     aspect-ratio: 3/3;
@@ -511,6 +518,7 @@ footer {
     height: 700px;
     width: 510px;
   }
+  
 }
 
 /* Medium devices (tablets, upto 768px and above) */
