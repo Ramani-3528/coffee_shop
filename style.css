@@ -590,6 +590,13 @@ footer {
     grid-template-columns: 1fr 1fr;
     padding: 0rem 1rem;
   }
+  h3 {
+    color: #212925;
+    font-family: "Nunito", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+  }
 }
 
 /* Large devices (Laptops, upto 992px and above) */
@@ -599,6 +606,13 @@ footer {
     grid-template-columns: 1fr 1fr 1fr;
     padding: 0rem 1rem;
   }
+  h3 {
+    color: #212925;
+    font-family: "Nunito", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+  }
 }
 
 /* X-Large devices (large desktops, upto 1200px and above) */
@@ -606,12 +620,26 @@ footer {
 @media (min-width: 993px) and (max-width: 1200px) {
   /* write code here */
   /* This will get CSS from Default style.css */
+  h3 {
+    color: #212925;
+    font-family: "Nunito", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+  }
 }
 
 /* XX-Large devices (larger desktops, upto 1400px and above) */
 /* @media (width >=1200px) */
 @media (min-width: 1201px) {
   /* write code here */
+  h3 {
+    color: #212925;
+    font-family: "Nunito", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+  }
 }
 
 /* ::::: RESPONSIVE DESIGN DEVICE SIZES ::::: */
