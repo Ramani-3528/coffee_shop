@@ -160,13 +160,13 @@ a {
   margin: auto;
 }
 .screenSize2 {
-  max-width: 1150px;
+  max-width: 1000px;
   /* Device Screen Size */
   margin: auto;
   /* Left and right Center */
 }
 .screenSize3 {
-  max-width: 1000px;
+  max-width: 1170px;
   /* Device Screen Size */
   margin: auto;
   /* Left and right Center */
@@ -355,7 +355,7 @@ footer {
 /* Popular code */
 .coffeeBody {
   padding: 0px 20px;
-  margin: 0px 100px 0px;
+  /* margin: 0px 100px 0px; */
 }
 
 .coffeeBody img {
