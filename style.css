@@ -60,6 +60,7 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background: #b9b9ba;
 }
+
 /* :::::SCROLL BAR CODE E N D S::::: */
 
 h1,
@@ -67,41 +68,46 @@ h2,
 h3,
 h4,
 h6,
-p{
+p {
   text-wrap: balance;
 }
+
 h1 {
   color: #212529;
   font-weight: 850;
   font-size: 50px;
   font-family: "Merienda", serif;
 }
+
 h2 {
   color: #212529;
   font-weight: 800;
   font-size: 40px;
   text-align: center;
-  font-family: "Merienda", serif; 
+  font-family: "Merienda", serif;
   margin: 0px 0px 10px;
   text-transform: capitalize;
 }
+
 h3 {
   color: #212529;
   font-family: "Nunito", sans-serif;
   font-size: 20px;
-  font-weight: 100; 
+  font-weight: 100;
   text-transform: capitalize;
 }
 
 p {
   color: #212529;
   font-size: 1.5rem;
-  font-family: "Nunito",sans-serif;
+  font-family: "Nunito", sans-serif;
   text-transform: capitalize;
 }
+
 span {
   color: #BE9C79;
 }
+
 .button {
   font-family: "Nunito Sans", serif;
   font-size: 20px;
@@ -110,12 +116,14 @@ span {
   color: #ffffff;
   border: none;
 }
+
 button:hover {
   background-color: #BE9C79;
   background: #0e0d0d;
   /* transform: scale(1.05); slight zoom */
   cursor: pointer;
 }
+
 input,
 textarea,
 button {
@@ -130,13 +138,16 @@ svg {
   display: block;
   max-width: 100%;
 }
+
 li {
   list-style-type: none;
 }
+
 a {
   text-decoration: none;
   color: inherit;
 }
+
 :root {
   --primaryColor: #be9c79;
   --secondaryColor: #666666;
@@ -154,23 +165,27 @@ a {
   padding: 1rem 0rem;
   /* Breathing Space Between Components */
 }
+
 .screenSize1 {
   max-width: 1200px;
   margin: auto;
 }
+
 .screenSize2 {
   max-width: 1020px;
   /* Device Screen Size */
   margin: auto;
   /* Left and right Center */
 }
+
 .screenSize3 {
   max-width: 1170px;
   /* Device Screen Size */
   margin: auto;
   /* Left and right Center */
 }
-.headingImage{
+
+.headingImage {
   height: auto;
   width: 180px;
 }
@@ -180,24 +195,28 @@ a {
   grid-template-columns: 1fr;
   padding: 0rem 2rem;
 }
+
 .grid-2 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 2rem;
   padding: 0rem 2rem;
 }
+
 .grid-3 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 1rem;
   padding: 0rem 2rem;
 }
+
 .grid-4 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 1rem;
   padding: 0rem 2rem;
 }
+
 .dflex {
   display: flex;
   /* without this wont work */
@@ -206,6 +225,7 @@ a {
   /* justify-content: center; */
   /* left & right Alignment */
 }
+
 .dflex-col {
   display: flex;
   flex-direction: column;
@@ -216,6 +236,7 @@ a {
   /* Behaves like a align-items */
   text-align: center;
 }
+
 .dflex-col-start {
   display: flex;
   flex-direction: column;
@@ -226,6 +247,7 @@ a {
   /* Behaves like a align-items */
   text-align: left;
 }
+
 .dflex-start {
   display: flex;
   justify-content: start;
@@ -268,19 +290,23 @@ footer {
 .navContainer {
   padding: 16px 0px;
 }
+
 .logoBox {
   padding: 10px 2px;
 }
+
 .logoBox figure img {
   width: auto;
   height: 50px;
   margin-left: 4rem;
 }
-#iconToggle{
+
+#iconToggle {
   cursor: pointer;
   display: none;
 }
-.homeBox .hamburger{
+
+.homeBox .hamburger {
   font-size: 25px;
   color: #00000080;
   border: 1px solid #0000001b;
@@ -288,6 +314,7 @@ footer {
   border-radius: 0.55rem;
   display: none;
 }
+
 .homeBox ul li a {
   font-family: "Nunito Sans", serif;
   font-size: 20px;
@@ -295,9 +322,10 @@ footer {
   padding: 10px;
 }
 
-.homeBox{
+.homeBox {
   padding-left: 6rem;
 }
+
 /* Navbar code */
 
 /* Hero Section code */
@@ -309,7 +337,7 @@ footer {
   padding: 20rem 0rem;
 }
 
-.heroBox{
+.heroBox {
   height: 100%;
   width: 50%;
 }
@@ -319,6 +347,7 @@ footer {
   margin-bottom: 30px;
   color: #343A40;
 }
+
 /* Hero Section code */
 /* :::HEADER Code Ends here::: */
 
@@ -328,6 +357,7 @@ footer {
   width: 100%;
   aspect-ratio: 3/3;
 }
+
 .menuBox h2 {
   font-family: "Merienda", cursive;
   font-size: 40px;
@@ -335,20 +365,23 @@ footer {
   line-height: 40px;
   text-align: start;
 }
+
 .menuBox p {
   font-family: "Nunito Sans", serif;
   font-size: 15px;
   text-align: start;
   margin: 10px 0px 20px 0px;
 }
+
 /* Our Menu code */
 
 /* Facility code */
-.facilityCardMain p{
+.facilityCardMain p {
   text-align: start;
   word-spacing: 1.5rem;
   padding-top: 1rem;
 }
+
 /* Facility code */
 
 /* Popular code */
@@ -366,9 +399,10 @@ footer {
 /* Popular code */
 
 /* Gallery code */
-.galleryImage{
+.galleryImage {
   padding: 0px 10px 15px;
 }
+
 /* Gallery code */
 
 /* Team code */
@@ -377,20 +411,23 @@ footer {
   /* margin: 0px 0px 0px; */
   text-align: top;
 }
-.memberImage{
+
+.memberImage {
   height: 300px 300px;
   width: auto;
   padding: 0px 10px 15px;
 }
+
 /* Team code */
 /* :::MAIN Code Ends here::: */
 
 /* :::FOOTER Code Starts here::: */
 /* Contact code */
-.pictureBox figure img{
+.pictureBox figure img {
   width: 100%;
   aspect-ratio: 2/2.5;
 }
+
 /* Contact code */
 
 /* Contact Icons code */
@@ -404,31 +441,39 @@ footer {
   padding: 13px;
   margin: 3rem;
 }
+
 .contactIconsContainer {
   margin: 0rem 4rem;
   padding: 0px 5px;
 }
-.contactIconsBody{
+
+.contactIconsBody {
   margin: 3rem;
 }
-.cardMain p{
+
+.cardMain p {
   /* font-family: "Nunito", sans-serif; */
   font-size: 20px;
   padding: 2px 0px;
 }
-.cardMain h3{
+
+.cardMain h3 {
   padding-bottom: 1rem;
 }
+
 .copyrightsBody {
   border-top: 1.5px solid black;
 }
+
 .copyrightsBlock {
   padding-top: 2rem;
 }
+
 .copyrightsBox p {
   font-family: "Nunito", sans-serif;
   font-size: 20px;
 }
+
 /* Contact Icons code */
 /* :::FOOTER Code Ends here::: */
 
@@ -439,6 +484,7 @@ footer {
 /* Small devices (landscape phones, upto 576px and below) */
 /* @media (width <=576px) */
 @media (max-width: 576px) {
+
   .grid-1,
   .grid-2,
   .grid-3,
@@ -447,9 +493,11 @@ footer {
     grid-template-columns: 1fr;
     /* padding: 0rem 1rem; */
   }
-  .logoBlock img{
+
+  .logoBlock img {
     justify-content: center;
   }
+
   .homeBox .hamburger {
     display: block;
     position: absolute;
@@ -457,8 +505,8 @@ footer {
     right: 4rem;
     cursor: pointer;
   }
-  
-  .homeBlock{
+
+  .homeBlock {
     justify-content: end;
   }
 
@@ -467,24 +515,24 @@ footer {
     padding: 25rem 0rem;
   }
 
-  .links{
+  .links {
     flex-direction: column;
     display: none;
   }
 
-  #iconToggle:checked~ .links {
+  #iconToggle:checked~.links {
     display: flex;
   }
 
-  .logoBox{
-      padding: 1px 2px;
+  .logoBox {
+    padding: 1px 2px;
   }
 
-  .heroBox h1{
+  .heroBox h1 {
     font-size: 30px;
   }
 
-  .heroBox p{
+  .heroBox p {
     font-size: 12px;
     margin: 0px 0px 20px;
   }
@@ -493,43 +541,50 @@ footer {
     height: 100%;
     width: 50%;
   } */
-  .menuBox p{
+  .menuBox p {
     font-size: 12px;
   }
-  .facilityCardMain p{
+
+  .facilityCardMain p {
     font-size: 12px;
     text-align: left;
     word-spacing: normal;
   }
+
   .coffeeBody img {
     width: 327px;
     aspect-ratio: 4/4;
   }
+
   .imageBox figure img {
     aspect-ratio: 3/3;
     width: 510px;
   }
-  .memberImage img{
+
+  .memberImage img {
     height: 300px;
     width: auto;
   }
-  .pictureBox img{
+
+  .pictureBox img {
     height: 700px;
     width: 510px;
   }
+
   h3 {
-    color: #212529;
+    color: #0ce66e;
     font-family: "Nunito", sans-serif;
     font-size: 20px;
-    font-weight: 100; 
+    font-weight: 100;
     text-transform: capitalize;
   }
-  
+
 }
 
 /* Medium devices (tablets, upto 768px and above) */
 /* @media (width >=577px) and (width <=768px) */
 @media (min-width: 577px) and (max-width: 768px) {
+
   .grid-3,
   .grid-4 {
     grid-template-columns: 1fr 1fr;
@@ -540,10 +595,10 @@ footer {
 /* Large devices (Laptops, upto 992px and above) */
 /* @media (width >=769px) and (width <=992px) */
 @media (min-width: 769px) and (max-width: 992px) {
-        .grid-4 {
-      grid-template-columns: 1fr 1fr 1fr;
-      padding: 0rem 1rem;
-    }
+  .grid-4 {
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 0rem 1rem;
+  }
 }
 
 /* X-Large devices (large desktops, upto 1200px and above) */
@@ -558,4 +613,5 @@ footer {
 @media (min-width: 1201px) {
   /* write code here */
 }
+
 /* ::::: RESPONSIVE DESIGN DEVICE SIZES ::::: */
