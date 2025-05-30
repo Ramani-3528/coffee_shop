@@ -90,7 +90,7 @@ h2 {
 }
 
 h3 {
-  color: #0076ec;
+  color: #212529;
   font-family: "Nunito", sans-serif;
   font-size: 20px;
   font-weight: 100;
@@ -572,10 +572,10 @@ footer {
   }
 
   h3 {
-    color: #0ce66e;
+    color: #212925;
     font-family: "Nunito", sans-serif;
     font-size: 20px;
-    font-weight: 100;
+    font-weight: 600;
     text-transform: capitalize;
   }
 
