@@ -509,6 +509,10 @@ footer {
     justify-content: end;
   }
 
+  .homeBox ul li {
+    padding: 1rem;
+  }
+
   .hero {
     background-size: auto;
     padding: 25rem 0rem;
