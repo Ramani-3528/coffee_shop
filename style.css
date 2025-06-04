@@ -309,7 +309,7 @@ footer {
 .homeBox .hamburger {
   font-size: 25px;
   color: #00000080;
-  border: 1px solid #0000001b;
+  border: 1px solid #0000001d;
   padding: 3px 19px 3px 19px;
   border-radius: 0.55rem;
   display: none;
@@ -576,7 +576,7 @@ footer {
     color: #212529;
     font-family: "Nunito", sans-serif;
     font-size: 20px;
-    font-weight: 200;
+    font-weight: 400;
     text-transform: capitalize;
   }
 
