@@ -120,7 +120,6 @@ span {
 button:hover {
   background-color: #BE9C79;
   background: #0e0d0d;
-  /* transform: scale(1.05); slight zoom */
   cursor: pointer;
 }
 
@@ -173,9 +172,7 @@ a {
 
 .screenSize2 {
   max-width: 1020px;
-  /* Device Screen Size */
   margin: auto;
-  /* Left and right Center */
 }
 
 .screenSize3 {
@@ -199,7 +196,7 @@ a {
 .grid-2 {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 2rem;
+  gap: 1rem;
   padding: 0rem 2rem;
 }
 
@@ -222,7 +219,7 @@ a {
   /* without this wont work */
   align-items: center;
   /* top & bottom Alignment */
-  /* justify-content: center; */
+  justify-content: center;
   /* left & right Alignment */
 }
 
@@ -253,11 +250,6 @@ a {
   justify-content: start;
   align-items: center;
 }
-
-/* .footer-line {
-  border-top: 1.5px solid #000;
-  margin: 20px 0px;
-} */
 
 /* project standard classes Ends */
 
@@ -546,14 +538,18 @@ footer {
     font-size: 12px;
   }
 
+  .varietiesBody{
+    padding-bottom: 1rem;
+  }
+
   .facilityCardMain p {
     font-size: 12px;
     text-align: left;
     word-spacing: normal;
   }
 
-  .imagesBody{
-    padding-bottom: 1rem;
+  .facilityItems{
+    padding-bottom: 3rem;
   }
 
   .coffeeBody img {
@@ -567,7 +563,7 @@ footer {
   }
 
   .memberBox figure img {
-    height: 200px;
+    height: 260px;
     width: auto;
   }
 
