@@ -553,7 +553,7 @@ footer {
   }
 
   .coffeeBody img {
-    width: 260px;
+    width: 230px;
     aspect-ratio: 3/3;
   }
 
@@ -563,8 +563,8 @@ footer {
   }
 
   .memberBox figure img {
-    height: 260px;
-    width: auto;
+    width: 230px;
+    aspect-ratio: 3/3;
   }
 
   .pictureBox img {
