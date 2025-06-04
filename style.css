@@ -69,7 +69,7 @@ h3,
 h4,
 h6,
 p {
-  text-wrap: balance;
+  /* text-wrap: balance; */
 }
 
 h1 {
@@ -334,7 +334,7 @@ footer {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  padding: 20rem 0rem;
+  padding: 16rem 0rem;
 }
 
 .heroBox {
@@ -378,7 +378,7 @@ footer {
 /* Facility code */
 .facilityCardMain p {
   text-align: start;
-  word-spacing: 1.5rem;
+  word-spacing: 0.9rem;
   padding-top: 1rem;
 }
 
@@ -561,7 +561,7 @@ footer {
   }
 
   .memberImage img {
-    height: 300px;
+    height: 200px;
     width: auto;
   }
 
