@@ -408,14 +408,16 @@ footer {
 /* Team code */
 .john {
   font-size: 20px;
-  /* margin: 0px 0px 0px; */
-  text-align: top;
+}
+
+.memberBox{
+  padding-bottom: 1.4rem;
 }
 
 .memberBox figure img{
-  height: 300px 300px;
+  height: 300px;
   width: auto;
-  padding: 0px 10px 15px;
+  padding: 0px 10px 0px;
 }
 
 /* Team code */
