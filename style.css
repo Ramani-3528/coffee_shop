@@ -552,6 +552,10 @@ footer {
     word-spacing: normal;
   }
 
+  .imagesBody{
+    padding-bottom: 1rem;
+  }
+
   .coffeeBody img {
     width: 230px;
     aspect-ratio: 3/3;
