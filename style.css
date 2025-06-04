@@ -423,9 +423,9 @@ footer {
 
 /* :::FOOTER Code Starts here::: */
 /* Contact code */
-.pictureBox figure img {
+.memberBox figure img{
   width: 100%;
-  aspect-ratio: 2/2.5;
+  aspect-ratio: 2/2;
 }
 
 /* Contact code */
@@ -560,7 +560,7 @@ footer {
     width: 510px;
   }
 
-  .memberImage img {
+  .memberBox figure img {
     height: 200px;
     width: auto;
   }
