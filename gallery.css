@@ -42,7 +42,7 @@
 .galleryBox figure{
     /* background-color: rgb(4, 182, 123); */
 }
-.galleryBox figure img{
+.galleryImage{
     /* background-color: rgb(236, 240, 13); */
     height: auto;
     width: 180px;
