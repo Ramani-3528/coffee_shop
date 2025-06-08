@@ -116,8 +116,12 @@ span {
 
 button:hover {
   background-color: #BE9C79;
-  background: #0e0d0d;
+  background: #0e0d0d; 
   cursor: pointer;
+}
+
+button:active{
+  border: 4px solid #a8d1ff;
 }
 
 input,
@@ -419,10 +423,37 @@ footer {
 
 /* :::FOOTER Code Starts here::: */
 /* Contact code */
+
 .pictureBox figure img{
   width: 100%;
-  aspect-ratio: 2/2.5;
+  aspect-ratio: 5/5.9;
 }
+
+.bookingBox{
+  border: 1px solid black;
+  gap: 1rem;
+  padding: 1rem 14rem 4rem 14rem;
+}
+
+.bookingBox h3{
+  font-size: 35px;
+  font-weight: 500;
+}
+input {
+  font-family: "Nunito", sans-serif;
+  font-size: 20px;          
+  width: 100%;
+  padding: 10px;       
+  margin-bottom: 20px;
+  border: 1px solid #080808;
+  box-sizing: border-box;
+}
+
+input:focus {
+  outline: #a8d1ff;
+  border: 4px solid #a8d1ff; 
+}
+
 
 /* Contact code */
 

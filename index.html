@@ -63,7 +63,7 @@
                             <h1>Coffee Heaven</h1><!--7.Content Container-->
                             <p>Lorem Ipsum, Dolor Sit Amet Consectetur Adipisicing Elit. Adipisci Ipsa Id Vero
                                 Perferendis, Reiciendis Dolores!</p>
-                            <button class="button">About Us</button>
+                            <button class="button" onclick="window.open('#ourMenu', '_self')">About Us</button>
                         </div>
                     </div>
                 </div>
@@ -71,7 +71,7 @@
         </div>
     </header>
     <main><!-- 1.Parent Container -->
-        <section class="ourMenu componentSpacing"><!-- 2.Component -->
+        <section id="ourMenu" class="ourMenu componentSpacing"><!-- 2.Component -->
             <div class="menuContainer screenSize2"><!--3.Component Container-->
                 <div class="menuBody grid-2"><!-- 4.Row-->
                     <div class="imageBlock"><!-- 5.Column-1 -->
@@ -85,7 +85,7 @@
                             <h2>A Cup Of Coffee Can Complete Your Day</h2><!--7.Content Container-->
                             <p>Lorem Ipsum, Dolor Sit Amet Consectetur Adipisicing Elit. Pariatur, Esse Corrupti.
                                 Incidunt Fuga Sit Numquam Est Consequatur Provident Ipsa Quidem! Lorem</p>
-                            <button class="button">Our Menu</button>
+                            <button class="button" onclick="window.open('#popular', '_self')">Our Menu</button>
                         </div>
                     </div>
                 </div>
@@ -144,7 +144,7 @@
                 </div>
             </div>
         </section>
-        <section class="popular componentSpacing"><!-- 2.Component -->
+        <section id="popular" class="popular componentSpacing"><!-- 2.Component -->
             <div class="popularContainer screenSize2"><!-- 3.Component Container-->
                 <div class="popularBody"><!-- 4.Row-1 -->
                     <div class="popularBlock"><!-- 5.Column -->
@@ -328,13 +328,18 @@
                 </div>
                 <div class="bookingBody grid-2"><!-- 4.Row -->
                     <div class="pictureBlock"><!-- 5.Column -->
-                        <div class="pictureBox"><!-- 6.subColumn -->
-                            <figure><img src="./assets/images/contact_img.jpg" alt=""></figure>
-                            <!--7.Content Container-->
+                        <div class="pictureBox dflex"><!-- 6.subColumn -->
+                            <figure><img src="./assets/images/contact_img.jpg" alt="contact"></figure><!--7.Content Container-->
                         </div>
                     </div>
-                    <div class="bookingBlock"><!-- 5.Column -->
-                        <div class="bookingBox"></div><!-- 6.subColumn -->
+                    <div class="bookingBlock dflex"><!-- 5.Column -->
+                        <div class="bookingBox dflex-col dflex"><!-- 6.subColumn -->
+                            <h3>Book A Table</h3><!--7.Content Container-->
+                            <input type="text" placeholder="Enter Your Name">
+                            <input type="number" placeholder="Enter Your Number">
+                            <input type="number" placeholder="How Many Guests">
+                            <button class="button">Send message</button>
+                        </div>
                     </div>
                 </div>
             </div>
