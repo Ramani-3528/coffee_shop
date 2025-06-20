@@ -432,7 +432,7 @@ footer {
 .bookingBox{
   border: 1px solid black;
   gap: 1rem;
-  padding: 1rem 14rem 4rem 14rem;
+  padding: 1rem 3rem 4rem 3rem;
 }
 
 .bookingBox h3{
@@ -441,9 +441,9 @@ footer {
 }
 input {
   font-family: "Nunito", sans-serif;
-  font-size: 20px;          
-  width: 100%;
-  padding: 10px;       
+  font-size: 2.5rem;          
+  width: 48rem;
+  padding: 1.2rem;       
   margin-bottom: 20px;
   border: 1px solid #080808;
   box-sizing: border-box;
