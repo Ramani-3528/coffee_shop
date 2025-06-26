@@ -25,9 +25,9 @@ body {
   background-color: #FFFFFF;
   font-family: "Merienda", serif;
   font-family: "Nunito Sans", serif;
-  font-family: "Inter", serif;
-  font-family: "Roboto Condensed", serif;
-  font-family: "DM Serif Display", serif;
+  /* font-family: "Inter", serif; */
+  /* font-family: "Roboto Condensed", serif; */
+  /* font-family: "DM Serif Display", serif; */
   /* line-height: 1.5; */
   font-size: 1.6rem;
   -webkit-font-smoothing: antialiased;
@@ -249,7 +249,7 @@ a {
 .dflex-start {
   display: flex;
   justify-content: start;
-  align-items: center;
+  align-items: start;
 }
 
 /* project standard classes Ends */
