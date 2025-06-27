@@ -115,7 +115,6 @@ span {
 }
 
 button:hover {
-  background-color: #BE9C79;
   background: #0e0d0d; 
   cursor: pointer;
 }
