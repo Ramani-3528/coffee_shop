@@ -515,10 +515,14 @@ input:focus {
 
   .grid-1,
   .grid-2,
-  .grid-3,
-  .grid-4 {
+  .grid-3 {
     display: grid;
     grid-template-columns: 1fr;
+    /* padding: 0rem 1rem; */
+  }
+  .grid-4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     /* padding: 0rem 1rem; */
   }
 
