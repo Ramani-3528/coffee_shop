@@ -530,6 +530,11 @@ input:focus {
     justify-content: center;
   }
 
+  .headingImage {
+    height: auto;
+    width: 18rem;
+  }
+
   .homeBox .hamburger {
     display: block;
     position: absolute;
