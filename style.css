@@ -450,7 +450,7 @@ input {
   font-size: 2.5rem;          
   width: 48rem;
   padding: 1.2rem;       
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
   border: 0.1rem solid #080808;
   box-sizing: border-box;
 }
@@ -572,6 +572,10 @@ input:focus {
     font-size: 1.6rem;
     margin: 0rem 0rem 2rem;
   }
+  
+  .menuBox{
+    padding: 0rem 4rem;
+  }
 
   .menuBox p {
     font-size: 1.6rem;
@@ -608,11 +612,7 @@ input:focus {
 
   .pictureBox img {
     width: 100%;
-    aspect-ratio: 4/1;
-  }
-
-  .bookingBox{
-    
+    aspect-ratio: 3/4;
   }
 
   h3 {
@@ -620,6 +620,9 @@ input:focus {
     font-weight: 400;
   }
 
+  .bookingBox{
+    margin: 4rem;
+  }
 }
 
 /* Medium devices (tablets, upto 768px and above) */
