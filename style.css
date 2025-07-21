@@ -197,7 +197,7 @@ a {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 1rem;
-  padding: 0rem 2rem;
+  /* padding: 0rem 2rem; */
 }
 
 .grid-3 {
@@ -348,6 +348,10 @@ footer {
 .imageBox figure img {
   width: 100%;
   aspect-ratio: 3/3;
+}
+
+.imageBox{
+  padding-right: 2rem;
 }
 
 .menuBox h2 {
@@ -603,8 +607,12 @@ input:focus {
   }
 
   .pictureBox img {
-    height: 700;
-    width: 51rem;
+    width: 100%;
+    aspect-ratio: 4/1;
+  }
+
+  .bookingBox{
+    
   }
 
   h3 {
