@@ -123,6 +123,11 @@ button:active{
   border: 0.4rem solid #a8d1ff;
 }
 
+.headingImage {
+  height: auto;
+  width: 18rem;
+}
+
 input,
 textarea,
 button {
@@ -180,11 +185,6 @@ a {
   /* Device Screen Size */
   margin: auto;
   /* Left and right Center */
-}
-
-.headingImage {
-  height: auto;
-  width: 18rem;
 }
 
 .grid-1 {
