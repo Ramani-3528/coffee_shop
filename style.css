@@ -532,6 +532,12 @@ input:focus {
     grid-template-columns: 1fr;
     padding: 0rem 1rem;
   }
+
+  h3 {
+    font-size: 2rem;
+    font-weight: 400;
+  }
+
   .navBar { 
     position: initial;
   }
@@ -626,17 +632,9 @@ input:focus {
 
   .pictureBox img {
     width: 100%;
-    aspect-ratio: 700 / 545.33;
+    aspect-ratio: 4/3;
   }
 
-  h3 {
-    font-size: 2rem;
-    font-weight: 400;
-  }
-
-  .bookingBox{
-    margin: 4rem;
-  }
 }
 
 /* Medium devices (tablets, upto 768px and above) */
