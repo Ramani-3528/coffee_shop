@@ -19,6 +19,7 @@ html {
   font-size: 62.5%;
   overflow-x: hidden;
   scroll-behavior: smooth;
+  scroll-padding-top: 11vBrrem;
 }
 
 body {
@@ -197,7 +198,7 @@ a {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 1rem;
-  /* padding: 0rem 2rem; */
+  padding: 0rem 2rem;
 }
 
 .grid-3 {
@@ -279,18 +280,24 @@ footer {
 
 /* :::HEADER Code Starts hereE::: */
 /* Navbar code */
+
+.navBar{
+  position: fixed;
+  background-color: white;
+  box-shadow: 0 0 8px #cdcccc;
+}
 .navContainer {
-  padding: 1.6rem 0rem;
+  padding: 1.6rem 4rem;
 }
 
 .logoBox {
-  padding: 1rem 0.2rem;
+  padding: 1rem 0rem 1rem 4rem;
 }
 
 .logoBox figure img {
   width: auto;
   height: 5rem;
-  margin-left: 4rem;
+  /* margin-left: 4rem; */
 }
 
 #iconToggle {
@@ -315,7 +322,7 @@ footer {
 }
 
 .homeBox {
-  padding-left: 2rem;
+  padding: 0rem 3rem 0rem 11rem;
 }
 
 /* Navbar code */
@@ -326,7 +333,7 @@ footer {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  padding: 16rem 0rem;
+  padding: 27rem 0rem;
 }
 
 .heroBox {
@@ -345,13 +352,14 @@ footer {
 
 /* :::MAIN Code Starts here::: */
 /* Our Menu code */
+
 .imageBox figure img {
-  width: 100%;
-  aspect-ratio: 3/3;
+  width: auto;
+  height: 545px;
 }
 
 .imageBox{
-  padding-right: 2rem;
+  /* margin-right: 2rem; */
 }
 
 .menuBox h2 {
@@ -445,6 +453,7 @@ footer {
   font-size: 3.5rem;
   font-weight: 500;
 }
+
 input {
   font-family: "Nunito", sans-serif;
   font-size: 2.5rem;          
@@ -460,9 +469,7 @@ input:focus {
   border: 0.4rem solid #a8d1ff; 
 }
 
-
 /* Contact code */
-
 /* Contact Icons code */
 .cardHeader i {
   font-size: 4rem;
@@ -523,9 +530,11 @@ input:focus {
   .grid-4 {
     display: grid;
     grid-template-columns: 1fr;
-    /* padding: 0rem 1rem; */
+    padding: 0rem 1rem;
   }
-
+  .navBar { 
+    position: initial;
+  }
   .logoBlock img {
     justify-content: center;
   }
@@ -616,8 +625,8 @@ input:focus {
   }
 
   .pictureBox img {
-    width: auto;
-    height: 54.5rem;
+    width: 100%;
+    aspect-ratio: 700 / 545.33;
   }
 
   h3 {
