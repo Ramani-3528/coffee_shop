@@ -440,6 +440,7 @@ footer {
 .pictureBox figure img{
   width: 100%;
   aspect-ratio: 3/3;
+  padding: 0rem 6rem;
 }
 
 .bookingBox{
