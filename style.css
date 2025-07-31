@@ -630,7 +630,7 @@ input:focus {
   }
 
   .pictureBox img {
-    width: 100%;
+    width: 50%;
     aspect-ratio: 3/3;
   }
 
