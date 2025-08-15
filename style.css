@@ -629,9 +629,9 @@ input:focus {
     width: auto;
   }
 
-  .pictureBox img {
-    width: 50%;
-    aspect-ratio: 3/3;
+  .pictureBox figure img {
+    width: 100%;
+    aspect-ratio: 3/4;
   }
 
 }
