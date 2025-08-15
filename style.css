@@ -629,10 +629,6 @@ input:focus {
     width: auto;
   }
 
-  .bookingBlock{
-    margin: 0rem 3rem;
-  }
-
   .pictureBox figure img {
     width: 100%;
     aspect-ratio: 3/4;
