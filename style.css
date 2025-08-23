@@ -539,7 +539,7 @@ input:focus {
   .navBar { 
     position: initial;
   }
-  .logoBlock img {
+  .logoBlock figure img {
     justify-content: center;
   }
 
@@ -613,7 +613,7 @@ input:focus {
     padding-bottom: 3rem;
   }
 
-  .coffeeBody img {
+  .coffeeBody figure img {
     width: 100%;
     aspect-ratio: 2/2;
   }
@@ -629,7 +629,7 @@ input:focus {
   }
 
   .pictureBox figure img {
-    width: 100%;
+    width: 90%;
     aspect-ratio: 3/4;
   }
 }
