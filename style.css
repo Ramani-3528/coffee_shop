@@ -460,7 +460,6 @@ input {
   padding: 1.2rem;       
   margin-bottom: 3rem;
   border: 0.1rem solid #080808;
-  box-sizing: border-box;
 }
 
 input:focus {
@@ -633,7 +632,13 @@ input:focus {
     width: 100%;
     aspect-ratio: 3/4;
   }
+  form{
+    width: 42rem;
+  }
 
+  input {         
+    width: 42rem;
+  }
 }
 
 /* Medium devices (tablets, upto 768px and above) */
