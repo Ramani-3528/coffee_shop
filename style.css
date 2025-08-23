@@ -632,13 +632,13 @@ input:focus {
     width: 100%;
     aspect-ratio: 3/4;
   }
-  form{
+  /* form{
     width: 42rem;
   }
 
   input {         
     width: 42rem;
-  }
+  } */
 }
 
 /* Medium devices (tablets, upto 768px and above) */
