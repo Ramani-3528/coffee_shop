@@ -628,10 +628,6 @@ input:focus {
     width: auto;
   }
 
-  .pictureBox{
-    margin-right: 2rem;
-  }
-
   .pictureBox figure img {
     width: 100%;
     aspect-ratio: 3/4;
