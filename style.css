@@ -628,17 +628,14 @@ input:focus {
     width: auto;
   }
 
+  .pictureBox{
+    margin-right: 2rem;
+  }
+
   .pictureBox figure img {
     width: 100%;
     aspect-ratio: 3/4;
   }
-  /* form{
-    width: 42rem;
-  }
-
-  input {         
-    width: 42rem;
-  } */
 }
 
 /* Medium devices (tablets, upto 768px and above) */
