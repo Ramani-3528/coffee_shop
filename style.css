@@ -633,12 +633,10 @@ input:focus {
     height: 700px;
   }
 
-  form{
-    width: 36rem;
-  }
-
   input{
-    width: 36rem;
+    font-size: 1.8rem;
+    width: 32rem;
+    padding: 1rem;
   }
 }
 
