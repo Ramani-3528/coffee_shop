@@ -132,7 +132,7 @@ button:active{
 input,
 textarea,
 button {
-  font-family: inherit;
+  /* font-family: inherit; */
 }
 
 img,
