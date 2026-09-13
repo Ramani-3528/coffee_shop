@@ -509,6 +509,7 @@ input:focus {
 .copyrightsBox p {
   font-family: "Nunito", sans-serif;
   font-size: 2rem;
+  padding-bottom: 1rem;
 }
 
 /* Contact Icons code */

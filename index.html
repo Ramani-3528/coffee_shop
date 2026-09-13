@@ -306,18 +306,19 @@
                     <div class="bookingBlock dflex"><!-- 5.Column -->
                         <div class="bookingBox dflex-col"><!-- 6.subColumn -->
                             <h3>Book A Table</h3><!--7.Content Container-->
-                            <form action="">
+                            <form id="bookingForm">
                                 <div>
-                                    <input type="text" placeholder="Enter Your Name">
+                                    <input type="text" id="name" name="name" placeholder="Enter Your Name" required>
                                 </div>
                                 <div>
-                                    <input type="number" placeholder="Enter Your Number">
+                                    <input type="tel" id="number" name="number" placeholder="Enter Your Number" required>
                                 </div>
                                 <div>
-                                    <input type="number" placeholder="How Many Guests">
+                                    <input type="number" id="guests" name="guests" placeholder="How Many Guests" required>
                                 </div>
+                                <button class="button">Send message</button>
                             </form>
-                            <button class="button">Send message</button>
+                            <p id="thankYouMessage"></p>
                         </div>
                     </div>
                 </div>
@@ -378,7 +379,7 @@
                 <div class="copyrightsBody"><!-- 4.Row -->
                     <div class="copyrightsBlock"><!-- 5.Column -->
                         <div class="copyrightsBox dflex"><!-- 6.subColumn -->
-                            <p>© copyright @ 2022 by <span>mr. web designer</span>| all rights reserved</p>
+                            <p>© copyright @ 2022 by |<span>mr. web designer</span>| all rights reserved</p>
                             <!--7.Content Container-->
                         </div>
                     </div>
@@ -386,5 +387,7 @@
             </div>
         </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="./script.js"></script>
 </body>
 </html>
