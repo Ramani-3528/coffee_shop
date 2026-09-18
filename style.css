@@ -354,7 +354,7 @@ footer {
 
 .imageBox figure img {
   width: auto;
-  height: 540px;
+  height: 545px;
 }
 
 .imageBox{
@@ -590,6 +590,11 @@ input:focus {
   .heroBox p {
     font-size: 1.6rem;
     margin: 0rem 0rem 2rem;
+  }
+
+  .imageBox figure img {
+    width: auto;
+    height: 530px;
   }
   
   .menuBox{
