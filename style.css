@@ -592,14 +592,13 @@ input:focus {
     margin: 0rem 0rem 2rem;
   }
 
+  .menuBox{
+    padding: 0rem 4rem;
+  }
+
   .imageBox figure img {
     width: auto;
     height: 530px;
-  }
-
-  
-  .menuBox{
-    padding: 0rem 4rem;
   }
 
   .menuBox p {
