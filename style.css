@@ -596,6 +596,7 @@ input:focus {
     width: auto;
     height: 530px;
   }
+
   
   .menuBox{
     padding: 0rem 4rem;
@@ -605,18 +606,19 @@ input:focus {
     font-size: 1.6rem;
   }
 
-  .varietiesBody{
-    padding-bottom: 1rem;
-  }
-
   .facilityCardMain p {
     font-size: 1.6rem;
     text-align: left;
     word-spacing: normal;
+    margin-left: 2rem;
   }
 
   .facilityItems{
     padding-bottom: 3rem;
+  }
+
+  .varietiesBody{
+    padding-bottom: 1rem;
   }
 
   .coffeeBody figure img {
@@ -640,8 +642,8 @@ input:focus {
   }
 
   input{
-    font-size: 1.8rem;
-    width: 31rem;
+    font-size: 1.7rem;
+    width: 30rem;
     padding: 1rem;
   }
 }
